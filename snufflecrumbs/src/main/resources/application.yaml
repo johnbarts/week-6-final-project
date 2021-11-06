@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: snufflecrumbs
+    username: snufflecrumbs
+    url:  jdbc:mysql://localhost:3306/snufflecrumbs
+
+logging:
+  level:
+    root: warn
+    '[com.snufflecrumbs]': debug
